@@ -1,0 +1,123 @@
+/*
+Font
+*/
+@font-face {
+    font-family: 'Folkard';
+    src: url('/public/fonts/folkard_.ttf');
+}
+
+/*
+Navbar
+*/
+body {
+    padding-top: 50px;
+    font-family: 'Folkard';
+}
+
+.navbar-custom {
+    background-color: black;
+    border-bottom: 5px solid #F4A443 !important;
+}
+
+.navbar-custom a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar-custom a:hover, .navbar-custom a:focus {
+    color: #F4A443;
+    background-color: black !important;
+}
+
+.active {
+    background-color: #F4A443;
+}
+
+/*
+Content
+*/
+.separator {
+    border-top: 1px dashed black;
+    margin: 40px 0 40px 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    display: table;
+    white-space: nowrap;
+}
+
+h3:after {
+    border-top: 2px dotted #F4A443;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.5em;
+    width: 60%;
+    left: 1.5%;
+}
+
+.bg-custom {
+    padding: 15px;
+    background-color: #F4A443;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hljs {
+    color: #DDD;
+    display: block;
+    padding: 0.5em;
+    background: #272822;
+}
+
+.hljs-balise {
+    color: #F92672;
+}
+
+.hljs-prop {
+    color: #BF79DB;
+}
+
+.hljs-class {
+    color: #A6E22E;
+}
+
+.bonus ol {
+    padding-bottom: 15px;
+}
+
+.panel-body li {
+    list-style-type: none;
+}
+
+.collapsed img {
+    vertical-align: bottom !important;
+}
+
+/*
+Footer
+*/
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+}
+
+.border {
+    border-bottom: 3px solid #F4A443;
+    padding-top: 10px;
+}
+
+.quicklinks {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.quicklinks a {
+    color: #F4A443;
+}
